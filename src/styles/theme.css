@@ -1,0 +1,25 @@
+/* Ecomtara Custom Design Tokens and Keyframes */
+
+.bg-ecomtara-gradient {
+  background: linear-gradient(to bottom, #ffffff, #faf7ff);
+}
+
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-12px);
+  }
+}
+
+.animate-float {
+  animation: float 6s ease-in-out infinite;
+}
+
+/* Glassmorphism utility */
+.bg-glass {
+  background-color: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+}
