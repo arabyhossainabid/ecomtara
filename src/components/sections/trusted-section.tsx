@@ -3,22 +3,22 @@ import { Container } from "@/components/layout/container";
 import { ShoppingBag, UtensilsCrossed, Sparkles, Layers, Store, Smartphone } from "lucide-react";
 
 const brands = [
-  { name: "TechMart",    icon: ShoppingBag },
-  { name: "DailyFood",   icon: UtensilsCrossed },
-  { name: "BeautyCare",  icon: Sparkles },
-  { name: "FashionHub",  icon: Layers },
-  { name: "MegaStore",   icon: Store },
+  { name: "TechMart", icon: ShoppingBag },
+  { name: "DailyFood", icon: UtensilsCrossed },
+  { name: "BeautyCare", icon: Sparkles },
+  { name: "FashionHub", icon: Layers },
+  { name: "MegaStore", icon: Store },
   { name: "DigitalShop", icon: Smartphone },
 ];
 
 export function TrustedSection() {
   return (
-    <section className="py-14 bg-white">
+    <section className="py-4 bg-white">
       <Container>
-        <h2 className="text-center text-2xl md:text-3xl font-bold text-slate-900 mb-10">
+        <h2 className="text-center text-2xl md:text-3xl font-bold text-slate-900 mb-6">
           যারা আমাদের উপর বিশ্বাস রেখেছেন
         </h2>
-        <div className="flex flex-wrap items-center justify-between gap-6">
+        <div className="flex flex-wrap items-center max-w-5xl mx-auto justify-between gap-4">
           {brands.map(({ name, icon: Icon }, index) => (
             <div
               key={index}
@@ -27,7 +27,7 @@ export function TrustedSection() {
               <div className="flex h-8 w-8 items-center justify-center rounded-full border border-slate-300">
                 <Icon className="h-4 w-4" />
               </div>
-              <span className="text-sm font-semibold text-slate-600 tracking-tight">{name}</span>
+              <span className="text-base font-semibold text-slate-700 tracking-tight">{name}</span>
             </div>
           ))}
         </div>

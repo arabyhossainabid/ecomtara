@@ -4,9 +4,9 @@ import { Container } from "@/components/layout/container";
 
 export function StatsSection() {
   return (
-    <section className="py-8 bg-white border-y border-slate-100">
+    <section className="py-6 bg-white border-y border-slate-100">
       <Container>
-        <div className="grid grid-cols-2 lg:grid-cols-4 divide-x divide-y lg:divide-y-0 divide-slate-100 rounded-2xl border border-slate-200 overflow-hidden shadow-sm">
+        <div className="grid grid-cols-2 lg:grid-cols-4 rounded-2xl border border-purple-100 overflow-hidden shadow-sm">
           {statsItems.map((stat, index) => (
             <div
               key={index}
