@@ -146,32 +146,6 @@ ecomtara/
 - **Stat Card** - Statistics display cards
 - **Trusted Brand** - Brand logo components
 
----
-
-## 🚀 Deployment
-
-### Vercel (Recommended)
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new)
-
-1. Push your code to GitHub
-2. Import your repository to [Vercel](https://vercel.com/new)
-3. Vercel will automatically detect Next.js and configure the build
-4. Click **Deploy**
-
-### Other Platforms
-
-This project can be deployed to any platform that supports Next.js:
-- **Netlify**
-- **AWS Amplify**
-- **Cloudflare Pages**
-- **Railway**
-- **Render**
-
-For more deployment options, check the [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying).
-
----
-
 ## 📝 Available Scripts
 
 | Command | Description |
@@ -180,18 +154,6 @@ For more deployment options, check the [Next.js deployment documentation](https:
 | `pnpm build` | Build for production |
 | `pnpm start` | Start production server |
 | `pnpm lint` | Run ESLint |
-
----
-
-## 🤝 Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
 
 ---
 
@@ -206,13 +168,3 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - Built with [Next.js](https://nextjs.org/)
 - Styled with [Tailwind CSS](https://tailwindcss.com/)
 - Icons by [Lucide](https://lucide.dev/)
-
----
-
-<div align="center">
-
-Made with ❤️ by [Your Name](https://github.com/yourusername)
-
-[⬆ Back to Top](#-ecomtara)
-
-</div>
