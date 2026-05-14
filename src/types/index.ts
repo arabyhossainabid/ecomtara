@@ -16,6 +16,8 @@ export interface FeatureItem {
   title: string;
   description: string;
   icon: LucideIcon;
+  color?: string;
+  bgColor?: string;
 }
 
 export interface DemoItem {
