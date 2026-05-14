@@ -1,4 +1,3 @@
-/* Ecomtara Custom Design Tokens and Keyframes */
 
 .bg-ecomtara-gradient {
   background: linear-gradient(to bottom, #ffffff, #faf7ff);
@@ -17,7 +16,6 @@
   animation: float 6s ease-in-out infinite;
 }
 
-/* Glassmorphism utility */
 .bg-glass {
   background-color: rgba(255, 255, 255, 0.85);
   backdrop-filter: blur(12px);

@@ -34,7 +34,6 @@ export function Navbar() {
             ))}
           </nav>
 
-          {/* CTA Button Right Side */}
           <div className="hidden md:flex items-center shrink-0">
             <a
               href="#demos"

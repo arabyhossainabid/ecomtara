@@ -1,4 +1,3 @@
-import React from "react";
 import { Check, Server } from "lucide-react";
 import type { PricingPlan } from "@/types";
 
@@ -24,7 +23,6 @@ export function PricingCard({ plan }: PricingCardProps) {
     buttonHref,
   } = plan;
 
-  // Lifetime plan — special layout with server graphic
   if (isLifetime) {
     return (
       <div className="relative flex flex-col rounded-2xl border border-slate-200 bg-white p-6 shadow-sm hover:shadow-md transition-all">
@@ -42,7 +40,6 @@ export function PricingCard({ plan }: PricingCardProps) {
           ))}
         </div>
 
-        {/* Server illustration */}
         <div className="flex justify-end mb-5">
           <div className="relative w-28 h-20">
             <div className="absolute bottom-0 right-0 w-24 h-16 bg-gradient-to-br from-slate-600 to-slate-900 rounded-xl flex flex-col justify-center gap-1.5 p-2.5 shadow-lg">
@@ -68,7 +65,7 @@ export function PricingCard({ plan }: PricingCardProps) {
 
   return (
     <div className="relative flex flex-col rounded-2xl border border-slate-200 bg-white p-6 shadow-sm hover:shadow-md transition-all">
-      {/* Plan name row with optional badge */}
+      
       <div className="flex items-center justify-between mb-1">
         <h3 className={`text-sm font-bold ${nameColor}`}>{name}</h3>
         {badge && (
@@ -78,7 +75,6 @@ export function PricingCard({ plan }: PricingCardProps) {
         )}
       </div>
 
-      {/* Price */}
       <div className="flex items-baseline gap-1 mt-2 mb-4">
         <span className={`text-3xl font-black tracking-tight ${priceColor}`}>{price}</span>
         {duration && (
@@ -86,7 +82,6 @@ export function PricingCard({ plan }: PricingCardProps) {
         )}
       </div>
 
-      {/* Feature list */}
       <div className="flex-1 space-y-2.5 mb-6">
         {features.map((feature, index) => (
           <div key={index} className="flex items-center gap-2">

@@ -8,7 +8,6 @@ export function Footer() {
     <footer className="border-t border-slate-100 bg-white pt-16 pb-12">
       <div className="max-w-screen-2xl mx-auto px-4 md:px-8 lg:px-12">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-10 pb-12 border-b border-slate-100">
-          {/* Brand Info */}
           <div className="lg:col-span-2 space-y-4">
             <div className="flex items-center gap-2.5">
               <div className="flex h-9 w-9 items-center justify-center rounded-xl bg-purple-600 text-white shadow-sm">
@@ -58,7 +57,6 @@ export function Footer() {
             </div>
           </div>
 
-          {/* Quick Links */}
           <div>
             <h3 className="text-sm font-bold text-slate-900 uppercase tracking-wider mb-4">
               দ্রুত লিংক
@@ -77,7 +75,6 @@ export function Footer() {
             </ul>
           </div>
 
-          {/* Solutions */}
           <div>
             <h3 className="text-sm font-bold text-slate-900 uppercase tracking-wider mb-4">
               সলিউশন
@@ -106,7 +103,6 @@ export function Footer() {
             </ul>
           </div>
 
-          {/* Contact Support */}
           <div>
             <h3 className="text-sm font-bold text-slate-900 uppercase tracking-wider mb-4">
               সাপোর্ট
@@ -127,7 +123,6 @@ export function Footer() {
           </div>
         </div>
 
-        {/* Bottom copyright */}
         <div className="mt-8 flex flex-col items-center justify-between gap-4 sm:flex-row text-xs text-slate-500">
           <p>&copy; {new Date().getFullYear()} Ecomtara. সর্বস্বত্ব সংরক্ষিত।</p>
           <p className="flex items-center gap-1">

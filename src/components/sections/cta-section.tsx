@@ -11,7 +11,6 @@ export function CtaSection() {
           <div className="absolute -left-8 -bottom-8 h-48 w-48 rounded-full bg-black/10 blur-2xl pointer-events-none" />
 
           <div className="relative z-10 flex flex-col lg:flex-row items-center gap-8 lg:gap-12">
-            {/* Rocket */}
             <div className="shrink-0">
               <div className="relative">
                 <div className="flex h-20 w-20 items-center justify-center rounded-2xl bg-white/10 backdrop-blur-sm">
@@ -22,7 +21,6 @@ export function CtaSection() {
               </div>
             </div>
 
-            {/* Text */}
             <div className="flex-1 text-center lg:text-left pl-0 lg:pl-2">
               <h2 className="text-2xl md:text-[28px] font-bold leading-tight mb-2">
                 আজই শুরু করুন আপনার ই-কমার্স যাত্রা!
@@ -32,7 +30,6 @@ export function CtaSection() {
               </p>
             </div>
 
-            {/* Buttons */}
             <div className="flex flex-col sm:flex-row gap-4 shrink-0 mt-6 lg:mt-0">
               <a
                 href="#demos"
