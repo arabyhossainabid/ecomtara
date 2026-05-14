@@ -13,11 +13,11 @@ export function Navbar() {
         <div className="flex h-20 items-center justify-between gap-4">
           {/* Logo Left Side */}
           <a href="#hero" className="flex items-center gap-2.5 shrink-0 group">
-            <div className="flex h-10 w-10 items-center justify-center rounded-xl bg-gradient-to-tr from-purple-600 to-indigo-600 text-white shadow-md shadow-purple-200 transition-transform group-hover:scale-105">
+            <div className="flex h-10 w-10 items-center justify-center rounded-xl bg-linear-to-tr from-purple-600 to-indigo-600 text-white shadow-md shadow-purple-200 transition-transform group-hover:scale-105">
               <ShoppingBag className="h-5 w-5" />
             </div>
-            <span className="text-xl font-black tracking-tight text-slate-900">
-              Ecom<span className="text-purple-600">tara</span>
+            <span className="text-2xl font-black tracking-tight text-slate-900">
+              Ecomtara
             </span>
           </a>
 
@@ -27,7 +27,7 @@ export function Navbar() {
               <a
                 key={index}
                 href={item.href}
-                className="rounded-lg px-3 py-2 text-sm font-medium text-slate-700 transition-colors hover:bg-purple-50 hover:text-purple-600 whitespace-nowrap"
+                className="rounded-lg px-3 py-2 text-sm font-semibold text-slate-700 transition-colors hover:bg-purple-50 hover:text-purple-600 whitespace-nowrap"
               >
                 {item.title}
               </a>

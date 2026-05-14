@@ -12,7 +12,7 @@ export function BadgeItem({ label, icon: Icon, className }: BadgeItemProps) {
   return (
     <div
       className={cn(
-        "inline-flex items-center gap-2 rounded-full border border-purple-100 bg-white px-4 py-2 text-sm font-medium text-slate-700 shadow-sm transition-all hover:border-purple-200 hover:shadow-md",
+        "inline-flex items-center gap-2 rounded-full border border-purple-100 bg-white px-4 py-2 text-sm font-semibold text-slate-700 transition-all hover:border-purple-200",
         className
       )}
     >
