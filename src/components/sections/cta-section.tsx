@@ -4,9 +4,9 @@ import { Container } from "@/components/layout/container";
 
 export function CtaSection() {
   return (
-    <section id="cta" className="py-16 bg-white">
+    <section id="cta" className="py-8 bg-white">
       <Container>
-        <div className="relative overflow-hidden rounded-3xl bg-gradient-to-r from-violet-700 via-violet-600 to-indigo-700 px-8 py-10 md:px-14 md:py-12 text-white shadow-xl shadow-violet-100">
+        <div className="relative overflow-hidden rounded-3xl bg-linear-to-r from-violet-700 via-violet-600 to-indigo-700 px-8 py-6 md:px-8 md:py-6 text-white shadow-xl shadow-violet-100">
           <div className="absolute -right-8 -top-8 h-48 w-48 rounded-full bg-white/10 blur-2xl pointer-events-none" />
           <div className="absolute -left-8 -bottom-8 h-48 w-48 rounded-full bg-black/10 blur-2xl pointer-events-none" />
 
@@ -23,26 +23,26 @@ export function CtaSection() {
             </div>
 
             {/* Text */}
-            <div className="flex-1 text-center lg:text-left">
-              <h2 className="text-xl md:text-2xl font-bold leading-tight mb-2">
+            <div className="flex-1 text-center lg:text-left pl-0 lg:pl-2">
+              <h2 className="text-2xl md:text-[28px] font-bold leading-tight mb-2">
                 আজই শুরু করুন আপনার ই-কমার্স যাত্রা!
               </h2>
-              <p className="text-violet-100 text-sm leading-6">
+              <p className="text-violet-100 text-[15px] leading-relaxed">
                 Ecomtara এর সাথে আপনার ব্যবসাকে নিয়ে যান নতুন উচ্চতায়।
               </p>
             </div>
 
             {/* Buttons */}
-            <div className="flex flex-col sm:flex-row gap-3 shrink-0">
+            <div className="flex flex-col sm:flex-row gap-4 shrink-0 mt-6 lg:mt-0">
               <a
                 href="#demos"
-                className="inline-flex h-11 items-center justify-center rounded-xl bg-white px-7 text-sm font-semibold text-violet-700 shadow transition-all hover:bg-violet-50 hover:scale-105"
+                className="inline-flex h-12 items-center justify-center rounded-lg border border-white/80 bg-transparent px-8 text-[15px] font-bold text-white transition-all hover:bg-white hover:text-violet-600 hover:scale-105"
               >
                 ডেমো দেখুন
               </a>
               <a
                 href="tel:+8801234567890"
-                className="inline-flex h-11 items-center justify-center rounded-xl border-2 border-white bg-transparent px-7 text-sm font-semibold text-white transition-all hover:bg-white/10 hover:scale-105"
+                className="inline-flex h-12 items-center justify-center rounded-lg border border-white/80 bg-transparent px-8 text-[15px] font-bold text-white transition-all hover:bg-white hover:text-violet-600 hover:scale-105"
               >
                 যোগাযোগ করুন
               </a>
